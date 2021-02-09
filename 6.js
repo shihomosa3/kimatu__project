@@ -14,3 +14,4 @@ function show_innerHTML(){
 var result = document.getElementById('logo').innerHTML;
  alert(result);
 }
+function imgback1() {document.getElementById('logo').src = './image/josai.png';}
