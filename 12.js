@@ -1,0 +1,1 @@
+ function Question(){if(document.getElementById('answer').value=='アルクマ'){alert('Excellent!');}else{alert('Too bad');}}
