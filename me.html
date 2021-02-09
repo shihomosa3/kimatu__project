@@ -3,6 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
+
+<script src="1.js"></script>
+<script src="2.js"></script>
+<script src="3.js"></script>
+<script src="4.js"></script>
+<script src="5.js"></script>
+<script src="6.js"></script>
+<script src="7.js"></script>
+<script src="8.js"></script>
+<script src="9.js"></script>
+
   <title>自己紹介｜後期最終課題</title>
   <link rel="stylesheet" href="01.css">
   <link rel="stylesheet" href="table.css">
@@ -33,6 +44,7 @@
       <li><a href="#info001">基本情報</a></li>
       <li><a href="#info002">出身学校</a></li>
       <li><a href="#info003">取得資格</a></li>
+      <li><a href="#info004">授業で学んだこと</a></li>
     </ul>
     </div>
     
@@ -57,6 +69,82 @@
         <tr><th>高等学校教員免許状一種</th><td>商業科</td></tr>
       <tr><th>中学校教員免許状一種</th><td>社会科</td></tr>
       </table>
+<hr>
+    <h3 id="info004">授業で学んだこと</h3>
+<h1>イベントハンドラの練習</h1>
+<input type="button" value="ここをクリック"
+ondblclick="alert('Hello, shiho!');">
+
+<br>
+<h4>関数と変数</h4>
+<br>
+<input type="button" value="ここをクリック"
+onclick="sayhello61();sayhello61();">
+<input type="button" value="ここをクリック"
+onclick="saygoodbye();">
+
+<h4>変数の練習65</h4>
+<input type="button" value="あいさつ" onclick="sayhello65();">
+<input type="button" value="太郎" onclick="taro65();">
+<input type="button" value="花子" onclick="hanako65();">
+<br>
+<h4>変数の練習66</h4>
+<br>
+<input type="button" value="あいさつ" onclick="sayhello66();">
+<input type="button" value="太郎" onclick="taro();gakita();">
+<input type="button" value="花子" onclick="hanako();gakita();">
+<br>
+<h4>引数の練習67</h4>
+<br>
+<input type="button" value="あいさつ"onclick="sayhello67();">
+<input type="button" value="太郎"onclick="someone('太郎');">
+<input type="button" value="花子"onclick="someone('花子');">
+<br>
+<input type="button" value="レイ"onclick="someone('レイ');">
+<input type="button" value="アスカ"onclick="someone('アスカ');">
+<input type="button" value="シンジ"onclick="someone('シンジ');">
+<br>
+
+<h4>JavaScriptによる変更の練習68</h4>
+<input type="button" value="あいさつ" onclick="sayhello68();">
+<input type="button" value="太郎" onclick="taro68();">
+<input type="button" value="花子" onclick="hanako68();">
+<p id="who68">最初はworld</p>
+<br>
+ <h4>JavaScriptによるページの変更69</h4>
+ <div id="txt1" >
+<input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
+<br>
+<input type="button" value="画像の変更" onclick="imgchange1();">
+<img src='./image/josai.png' id="logo" alt="Josai Logo">
+<br>
+
+<br>
+
+<h4>タイマーイベントによる実行6-10</h4>
+<form name="timer"> 
+<input type="button" value="スタート" onclick="startfnc()">
+<br> 
+<input type="text" name="moji" size="30" value=""> 
+</form>
+<br>
+  
+<form> 
+<input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
+</form>
+<br>
+  <h4>タイマーイベントによる実行6-11</h4>
+<form name="timer2"> 
+<input type="button" value="スタート" onclick="hyoji2()">
+<br> 
+<input type="text" name="moji2" size="30" value=""> 
+</form>
+  <br>
+  <h4>タイマーイベントによる実行6-12</h4>
+      <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+  <img src='./image/josai.png' id="logo2" alt="Josai Logo">
+  <br>
+
 <hr>
     </div>
       <div id="footer">
